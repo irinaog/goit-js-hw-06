@@ -18,10 +18,10 @@ function onFormSubmit(event) {
         password: password,
         }
         console.log(formDate);
-        
+        form.reset();
     };
     
-    form.reset();
+    
 };
 
 
